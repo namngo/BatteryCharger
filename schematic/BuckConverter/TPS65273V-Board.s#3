@@ -5612,9 +5612,9 @@ With round pins</description>
 <label x="66.04" y="-15.24" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="8"/>
-<wire x1="-15.24" y1="25.4" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
-<label x="-7.62" y="25.4" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP1" gate="G$1" pin="6"/>
+<wire x1="-15.24" y1="30.48" x2="-7.62" y2="30.48" width="0.1524" layer="91"/>
+<label x="-7.62" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -5634,6 +5634,11 @@ With round pins</description>
 <pinref part="JP1" gate="G$1" pin="9"/>
 <wire x1="-15.24" y1="22.86" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
 <label x="2.54" y="22.86" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="7"/>
+<wire x1="-15.24" y1="27.94" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
+<label x="2.54" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -5925,11 +5930,6 @@ With round pins</description>
 <wire x1="55.88" y1="78.74" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
 <junction x="48.26" y="78.74"/>
 </segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="7"/>
-<wire x1="-15.24" y1="27.94" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
-<label x="2.54" y="27.94" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="EN1" class="0">
 <segment>
@@ -5943,9 +5943,9 @@ With round pins</description>
 <junction x="53.34" y="86.36"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="6"/>
-<wire x1="-15.24" y1="30.48" x2="-7.62" y2="30.48" width="0.1524" layer="91"/>
-<label x="-7.62" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP1" gate="G$1" pin="8"/>
+<wire x1="-15.24" y1="25.4" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
+<label x="-7.62" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="V3.3" class="0">
