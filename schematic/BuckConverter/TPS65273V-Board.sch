@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -5392,7 +5393,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="CO11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="22uF"/>
 <part name="CO23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="22uF"/>
 <part name="CO26" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="22uF"/>
-<part name="CI21" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1210" value="10uf (1210)"/>
+<part name="CI21" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1210" value="10uf"/>
 <part name="CI11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1210" value="10uf (1210)"/>
 <part name="L2" library="inductor-coilcraft" deviceset="MSS1048" device="" value="10uH"/>
 <part name="L1" library="inductor-coilcraft" deviceset="MSS1048" device="" value="10uH"/>
@@ -5704,12 +5705,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="JP1" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="-20.32" x2="35.56" y2="-20.32" width="0.1524" layer="91"/>
 <label x="35.56" y="-20.32" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="35.56" y1="-20.32" x2="27.94" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="-22.86" x2="45.72" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-22.86" x2="45.72" y2="-22.86" width="0.1524" layer="91"/>
 <label x="45.72" y="-22.86" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="INA260" gate="G$1" pin="GND@1"/>
@@ -5902,12 +5905,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="CO27" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="-25.4" x2="35.56" y2="-25.4" width="0.1524" layer="91"/>
 <label x="35.56" y="-25.4" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="35.56" y1="-25.4" x2="27.94" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="-27.94" x2="45.72" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-27.94" x2="45.72" y2="-27.94" width="0.1524" layer="91"/>
 <label x="45.72" y="-27.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -6188,30 +6193,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-17.78" y1="-27.94" x2="-12.7" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="1"/>
-<wire x1="27.94" y1="-20.32" x2="33.02" y2="-20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="27.94" y1="-22.86" x2="33.02" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="3"/>
-<wire x1="27.94" y1="-25.4" x2="33.02" y2="-25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="4"/>
-<wire x1="27.94" y1="-27.94" x2="33.02" y2="-27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
@@ -6219,7 +6200,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
