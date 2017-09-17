@@ -6205,14 +6205,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="CO17" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<wire x1="-12.7" y1="-25.4" x2="-10.16" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-7.62" y="-25.4" size="1.778" layer="95" xref="yes"/>
 <pinref part="OUT1" gate="A" pin="3"/>
-<wire x1="-10.16" y1="-25.4" x2="-7.62" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="-25.4" x2="-12.7" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-25.4" x2="-7.62" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-7.62" y="-25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-12.7" y1="-27.94" x2="5.08" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="OUT1" gate="A" pin="4"/>
+<wire x1="-17.78" y1="-27.94" x2="5.08" y2="-27.94" width="0.1524" layer="91"/>
 <label x="5.08" y="-27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -6289,12 +6288,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SIGNAL" gate="A" pin="5"/>
 <wire x1="-20.32" y1="86.36" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
 <label x="-10.16" y="86.36" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="OUT1" gate="A" pin="4"/>
-<wire x1="-17.78" y1="-27.94" x2="-12.7" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V5" class="0">
