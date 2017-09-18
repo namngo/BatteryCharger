@@ -6041,7 +6041,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="OUT2" gate="A" pin="4"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="FB2" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -6139,7 +6139,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="93.98" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="FB1" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="R9" gate="G$1" pin="2"/>
