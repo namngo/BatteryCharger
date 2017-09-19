@@ -5830,6 +5830,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="27.94" y1="-5.08" x2="27.94" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="-7.62" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="CVIN" gate="G$1" pin="-"/>
+<junction x="38.1" y="-7.62"/>
+<junction x="27.94" y="-7.62"/>
 </segment>
 <segment>
 <pinref part="POWERIN" gate="A" pin="3"/>
