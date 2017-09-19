@@ -10,19 +10,19 @@
 <grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -34,11 +34,11 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
@@ -46,7 +46,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -147,13 +147,13 @@
 <wire x1="68.885" y1="7.62" x2="68.885" y2="57.775" width="0" layer="20"/>
 <wire x1="68.885" y1="57.775" x2="-1.905" y2="57.775" width="0" layer="20"/>
 <wire x1="-1.905" y1="57.775" x2="-1.905" y2="7.62" width="0" layer="20"/>
-<text x="64.135" y="19.05" size="1.778" layer="25">+</text>
-<text x="64.135" y="15.24" size="1.778" layer="25">+</text>
-<text x="64.135" y="46.355" size="1.778" layer="25">+</text>
+<text x="64.135" y="17.78" size="1.778" layer="25">+</text>
+<text x="64.135" y="14.605" size="1.778" layer="25">+</text>
+<text x="63.7032" y="46.355" size="1.778" layer="25">+</text>
 <text x="64.135" y="48.895" size="1.778" layer="25">+</text>
 <text x="2.54" y="55.88" size="1.778" layer="25">+</text>
 <text x="2.54" y="53.975" size="1.778" layer="25">+</text>
-<text x="3.175" y="18.415" size="1.778" layer="25">+</text>
+<text x="3.5052" y="18.3896" size="1.778" layer="25">+</text>
 <text x="3.81" y="22.225" size="1.778" layer="25">-</text>
 <text x="3.175" y="50.8" size="1.778" layer="25">-</text>
 <text x="3.175" y="48.26" size="1.778" layer="25">-</text>
@@ -831,7 +831,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="10nf" x="15.24" y="15.24" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.6812" y="18.923" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="16.5862" y="15.748" size="0.8128" layer="25" rot="R270"/>
 </element>
 <element name="C10" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="10nF" x="57.15" y="32.385" smashed="yes">
 <attribute name="NAME" x="56.261" y="30.226" size="0.8128" layer="25"/>
@@ -846,7 +846,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="32.131" y="20.6502" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="10nf" x="15.24" y="10.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.8336" y="13.8684" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="16.7386" y="10.6934" size="0.8128" layer="25" rot="R270"/>
 </element>
 <element name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="10uf" x="15.875" y="37.465" smashed="yes" rot="MR270">
 <attribute name="NAME" x="14.224" y="38.354" size="1.27" layer="26" rot="MR270"/>
@@ -939,12 +939,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.8798" y="21.2344" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="TPS65273V" library="IC-packages_BIG-pack V1.0" package="HTSSOP32DAP" value="0x60H" x="27.94" y="35.56" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.21" y="39.37" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="25.4" y="28.575" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="26.035" y="38.1" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="INA260" library="IC-packages_BIG-pack V1.0" package="TSSOP16" value="1000100" x="7.366" y="40.132" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.1948" y="39.9034" size="0.8128" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="10.4648" y="39.0398" size="0.8128" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="9.1948" y="44.9834" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="10.4648" y="36.5252" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C12" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="0.1uf" x="2.54" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.048" y="36.195" size="0.8128" layer="25" rot="R90"/>
@@ -956,7 +956,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="63.119" y="10.541" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="CO28" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="22uF" x="62.865" y="52.705" smashed="yes" rot="R270">
-<attribute name="NAME" x="62.611" y="49.784" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="61.976" y="50.419" size="0.8128" layer="25" rot="R270"/>
 </element>
 <element name="CI22" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="0.1uf" x="15.875" y="31.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.716" y="32.639" size="0.8128" layer="25" rot="R270"/>
@@ -1340,23 +1340,6 @@ design rules under a new name.</description>
 <vertex x="-1.905" y="44.45"/>
 <vertex x="-1.905" y="7.62"/>
 </polygon>
-<polygon width="0.1524" layer="1" rank="6">
-<vertex x="68.58" y="19.685"/>
-<vertex x="30.48" y="19.685"/>
-<vertex x="27.305" y="22.86"/>
-<vertex x="27.305" y="28.575"/>
-<vertex x="27.94" y="29.21"/>
-<vertex x="33.02" y="29.21"/>
-<vertex x="33.655" y="29.845"/>
-<vertex x="33.655" y="41.275"/>
-<vertex x="33.02" y="41.91"/>
-<vertex x="29.21" y="41.91"/>
-<vertex x="28.575" y="42.545"/>
-<vertex x="28.575" y="50.8"/>
-<vertex x="29.845" y="52.07"/>
-<vertex x="67.945" y="52.07"/>
-<vertex x="68.58" y="51.435"/>
-</polygon>
 <via x="13.335" y="41.91" extent="1-16" drill="0.35"/>
 <via x="14.605" y="43.18" extent="1-16" drill="0.35"/>
 <via x="15.875" y="41.91" extent="1-16" drill="0.35"/>
@@ -1432,6 +1415,30 @@ design rules under a new name.</description>
 <wire x1="27.94" y1="34.925" x2="26.035" y2="33.02" width="0.1524" layer="1"/>
 <wire x1="27.94" y1="35.56" x2="27.94" y2="33.02" width="0.1524" layer="1"/>
 <wire x1="27.94" y1="33.02" x2="29.845" y2="31.115" width="0.1524" layer="1"/>
+<via x="6.35" y="50.8" extent="1-16" drill="0.35"/>
+<via x="6.35" y="49.53" extent="1-16" drill="0.35"/>
+<via x="6.35" y="48.26" extent="1-16" drill="0.35"/>
+<via x="7.62" y="48.26" extent="1-16" drill="0.35"/>
+<via x="7.62" y="49.53" extent="1-16" drill="0.35"/>
+<via x="8.89" y="48.26" extent="1-16" drill="0.35"/>
+<via x="6.35" y="46.99" extent="1-16" drill="0.35"/>
+<polygon width="0.1524" layer="1">
+<vertex x="68.58" y="19.685"/>
+<vertex x="65.405" y="19.685"/>
+<vertex x="59.69" y="25.4"/>
+<vertex x="47.625" y="25.4"/>
+<vertex x="47.625" y="32.385"/>
+<vertex x="46.355" y="33.655"/>
+<vertex x="36.195" y="33.655"/>
+<vertex x="35.56" y="34.29"/>
+<vertex x="35.56" y="36.83"/>
+<vertex x="36.195" y="37.465"/>
+<vertex x="45.085" y="37.465"/>
+<vertex x="47.625" y="40.005"/>
+<vertex x="47.625" y="45.72"/>
+<vertex x="48.26" y="46.355"/>
+<vertex x="68.58" y="46.355"/>
+</polygon>
 </signal>
 <signal name="VCC">
 <contactref element="TPS65273V" pad="6"/>
@@ -1628,10 +1635,7 @@ design rules under a new name.</description>
 <wire x1="66.675" y1="50.8" x2="66.675" y2="48.26" width="0.254" layer="1"/>
 <wire x1="31.89" y1="39.785" x2="32.64473125" y2="39.785" width="0.254" layer="1"/>
 <wire x1="32.64473125" y1="39.785" x2="33.577365625" y2="40.717634375" width="0.254" layer="1"/>
-<wire x1="33.577365625" y1="40.717634375" x2="33.577365625" y2="42.467365625" width="0.254" layer="1"/>
-<wire x1="33.577365625" y1="42.467365625" x2="33.655" y2="42.545" width="0.254" layer="1"/>
-<wire x1="33.655" y1="42.545" x2="35.305" y2="42.545" width="0.254" layer="1"/>
-<wire x1="39.8775" y1="47.1175" x2="35.305" y2="42.545" width="0.254" layer="1"/>
+<wire x1="35.94" y1="43.18" x2="39.8775" y2="47.1175" width="0.254" layer="1"/>
 <wire x1="39.8775" y1="47.1175" x2="41.91" y2="49.15" width="0.254" layer="1"/>
 <wire x1="39.79" y1="47.205" x2="34.925" y2="47.205" width="0.254" layer="1"/>
 <wire x1="39.79" y1="47.205" x2="39.8775" y2="47.1175" width="0.254" layer="1"/>
@@ -1649,6 +1653,9 @@ design rules under a new name.</description>
 <vertex x="30.48" y="47.625"/>
 <vertex x="31.115" y="46.99"/>
 </polygon>
+<wire x1="33.577365625" y1="40.717634375" x2="33.577365625" y2="42.467365625" width="0.254" layer="1"/>
+<wire x1="33.577365625" y1="42.467365625" x2="34.29" y2="43.18" width="0.254" layer="1"/>
+<wire x1="34.29" y1="43.18" x2="35.94" y2="43.18" width="0.254" layer="1"/>
 </signal>
 <signal name="FB2">
 <contactref element="R8" pad="2"/>
